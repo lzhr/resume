@@ -1,4 +1,4 @@
-# 曾昱深
+# Zeno Zeng
 
 ## Frontend Developer
 
@@ -9,7 +9,7 @@
 
 ------
 
-### 技术
+### Skills
 
 1. JavaScript
 
@@ -27,14 +27,14 @@
 
 ------
 
-### 教育
+### Education
 
-**生物系统工程** __2012 ~ 2016__
-    浙江大学
+**Biosystems Engineering** __2012 ~ 2016__
+    Zhejiang University
 
 ------
 
-### 经历
+### Experience
 
 **浙江大学求是潮技术研发中心** *前端工程师及后端工程师* __2012 ~ 2014__
     负责 QSC Mobile （校内教务 APP）V1、V2 的后端开发及 V1 的前端开发。

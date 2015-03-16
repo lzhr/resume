@@ -70,17 +70,14 @@
 
 ### 代码
 
-**[fonts.css](https://github.com/zenozeng/fonts.css)** (CSS) (300 stars)
-    跨平台 CSS 中文字体解决方案
+**[fonts.css](https://github.com/zenozeng/fonts.css)** (CSS) (300+ stars)
+    Cross platform CSS solutions for Chinese fonts.
 
 **[color-hash](https://github.com/zenozeng/color-hash)** (JavaScript)
     Generate color based on the given string (using HSL color space and BKDRHash).
 
-**[beads](https://github.com/zenozeng/beads)** (JavaScript)
-    General purpose middleware layer for nodejs using generater.
-
-**[version-storage](https://github.com/zenozeng/version-storage)** (CoffeeScript)
-    localStorage like, fileSystem/localStorage based storage with upgrade
+**[p5.js-pdf](https://github.com/zenozeng/p5.js-pdf)** (JavaScript)
+    A simple PDF export module for p5.js.
 
 **[interval.js](https://github.com/zenozeng/interval.js)** (JavaScript)
     A simple interval manager with lifetime / start / stop / pause / resume / restart.
@@ -89,10 +86,10 @@
     Fly branch chart (built for uData).
 
 **[funnel-chart](https://github.com/zenozeng/funnel-chart)** (JavaScript)
-    FunnelChart是一个基于 Kissy 和 SVG 的漏斗图组件。
+    FunnelChart is a component based on kissy and SVG.
 
 **[colors-clustering](https://github.com/zenozeng/colors-clustering)** (CoffeeScript)
-    Colors clustering based on K-means algorithm & CIE76
+    Get main colors from image using K-means algorithm & CIE76.
 
 **[gene-pool](https://github.com/zenozeng/gene-pool)** (JavaScript)
     Genetic algorithms in a given gene pool.
@@ -105,9 +102,6 @@
 
 **[github-changelog](https://github.com/zenozeng/gitlab-changelog)** (PHP)
     A php script to generate changelog via gitlab api.
-
-**[gimp-script](https://github.com/zenozeng/gimp-script)** (Scheme)
-    我用 Scheme 写的一些杂七杂八的小滤镜。
 
 **[font-detect.js](https://github.com/zenozeng/font-detect.js)** (CoffeeScript)
     Detect font without flash, simply using javascript & @font-face
@@ -122,7 +116,7 @@
     PHP Doc for Emacs using eldoc framework.
 
 **[zjunet](https://github.com/QSCTech/zjunet)** (Shell)
-    Command Line Scripts for ZJU (VPN / WLAN / DNS)
+    Command Line Scripts for ZJU (VPN / WLAN / DNS).
 
 ------
 

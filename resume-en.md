@@ -68,6 +68,9 @@
 **[color-hash](https://github.com/zenozeng/color-hash)** (JavaScript)
     Generate color based on the given string (using HSL color space and BKDRHash).
 
+**[p5.js-pdf](https://github.com/zenozeng/p5.js-pdf)** (JavaScript)
+    A simple PDF export module for p5.js.
+
 **[interval.js](https://github.com/zenozeng/interval.js)** (JavaScript)
     A simple interval manager with lifetime / start / stop / pause / resume / restart.
 
@@ -105,7 +108,7 @@
     PHP Doc for Emacs using eldoc framework.
 
 **[zjunet](https://github.com/QSCTech/zjunet)** (Shell)
-    Command Line Scripts for ZJU (VPN / WLAN / DNS)
+    Command Line Scripts for ZJU (VPN / WLAN / DNS).
 
 ------
 

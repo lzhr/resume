@@ -29,33 +29,38 @@
 
 ### Education
 
-**Biosystems Engineering** __2012 ~ 2016__
+**Biosystems Engineering** 2012 ~ 2016
     Zhejiang University
 
 ------
 
 ### Experience
 
-**Web Developer, Zhejiang University QiuShiChao Website** __2012 ~ 2014__
-    负责 QSC Mobile （校内教务 APP）V1、V2 的后端开发及 V1 的前端开发。
-    负责 QSC Mobile V2 Plugin Platform / SDK 的设计、开发。
-    负责 QSC Notice（校内活动发布平台）的前端开发。
-    负责浙江大学新生手册（2013）的前端开发。
-    负责过一段时间的前端内训。
+**Web Developer, Zhejiang University QiuShiChao Website** 2012 ~ 2014
+    Frontend Developer and Backend Developer, QSC Mobile V1 (HTML5 Version).
+    Backend Developer, QSC Mobile V2 (Native Version).
+    Frontend Developer, QSC Notice (School activities publishing platform).
+    Frontend Developer, Zhejiang University Online Freshman Manual 2013.
+    Organizer for frontend training in department.
+
     **Tags:** PHP, Javascript, CoffeeScript, HTML5, Cache, RSA, SPA
 
-**Taobao UED** *实习前端工程师* __2014.07 ~ 2014.08__
-    前端基础架构数据组。给 uData 和有数做一些奇怪的东西。
-    给 ATA 做过一个从 milestone 生成 changelog 的小工具。
+**Internal Frontend Developer, Taobao UED (Alibaba Group)** 2014.07 ~ 2014.08
+    Frontend Infrastructure Data Group.
+    Build charts for uData and Youshu.
+    A changelog generator for GitLab.
+
     **Tags:** Kissy, Phantom, Chrome Extension, D3, SVG, Canvas, Data Visualization, PHP, gulp
 
-**熵功场科技（杭州）有限公司** *前端工程师* __2014.11 ~ 2014.12__
-    Catch 摄影师后台管理系统 Web v1.0
+**Frontend Developer, ​Entropy Lab Inc. (Hangzhou)** 2014.11 ~ 2014.12
+    Management system for photographers v1.0
+
     **Tags:** Myth, Backbone, Purecss, SPA, bower, gulp, browserify
 
-**Project Lead, Cocolour** __2014.03 ~ Now__
+**Project Leader, Cocolour** 2014.03 ~ 2015.05
     [https://github.com/zenozeng/cocolour](https://github.com/zenozeng/cocolour)
-    由图像提取主题色，产生配色，然后基于用户行为进行机器学习调整推荐。项目进行中。
+    Extract colors from given image and generate palettes for users based on machine learning.
+
     **Tags:** K-Means, CIE, Genetic algorithms, ANN
 
 ------

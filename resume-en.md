@@ -63,6 +63,11 @@
 
     **Tags:** K-Means, CIE, Genetic algorithms, ANN
 
+**Frontend Developer, GSoC 2015 - PDF/SVG support for p5.js** 2015.05 ~ 2015.08
+    My Google Summer of Code Project.
+
+    **Tags:** processing, p5.js, SVG, canvas
+
 ------
 
 ### Repositories
@@ -73,17 +78,17 @@
 **[color-hash](https://github.com/zenozeng/color-hash)** (JavaScript)
     Generate color based on the given string (using HSL color space and BKDRHash).
 
+**[p5.js-svg](https://github.com/zenozeng/p5.js-svg)** (JavaScript)
+    SVG runtime for p5.js.
+
 **[p5.js-pdf](https://github.com/zenozeng/p5.js-pdf)** (JavaScript)
     A simple PDF export module for p5.js.
 
-**[interval.js](https://github.com/zenozeng/interval.js)** (JavaScript)
-    A simple interval manager with lifetime / start / stop / pause / resume / restart.
+**[yapcduino.js](https://github.com/zenozeng/yapcduino.js)** (C, C++, JavaScript)
+    Yet another nodejs library for pcduino - built for modern nodejs and provide more arduino functions and wrapper.
 
-**[fly-branch-chart](https://github.com/zenozeng/fly-branch-chart)** (JavaScript)
-    Fly branch chart (built for uData).
-
-**[funnel-chart](https://github.com/zenozeng/funnel-chart)** (JavaScript)
-    FunnelChart is a component based on kissy and SVG.
+**[svgcanvas](https://github.com/zenozeng/svgcanvas)** (JavaScript)
+    Provide <canvas>'s element API and context API using SVG
 
 **[colors-clustering](https://github.com/zenozeng/colors-clustering)** (CoffeeScript)
     Get main colors from image using K-means algorithm & CIE76.
@@ -94,9 +99,6 @@
 **[dom-screenshot](https://github.com/zenozeng/dom-screenshot)** (JavaScript)
     Get screenshot of dom via SVG foreignObject.
 
-**[ntap.coffee](https://github.com/zenozeng/ntap.coffee)** (CoffeeScript)
-    Bind events on nth tap (using setTimeout).
-
 **[github-changelog](https://github.com/zenozeng/gitlab-changelog)** (PHP)
     A php script to generate changelog via gitlab api.
 
@@ -106,18 +108,15 @@
 **[yafolding.el](https://github.com/zenozeng/yafolding.el)** (Emacs Lisp) (30+ stars)
     Yet another folding extension for Emacs. Folding code blocks based on indentation.
 
-**[css-eldoc](https://github.com/zenozeng/css-eldoc)** (Emacs Lisp)
-    CSS Doc for Emacs using eldoc framework.
-
-**[php-eldoc](https://github.com/zenozeng/php-eldoc)** (Emacs Lisp)
-    PHP Doc for Emacs using eldoc framework.
-
 **[zjunet](https://github.com/QSCTech/zjunet)** (Shell)
     Command Line Scripts for ZJU (VPN / WLAN / DNS).
 
 ------
 
 ## Repositories contributed to
+
+**[canvas2svg](https://github.com/gliffy/canvas2svg)** (JavaScript)
+    Many [pull requests](https://github.com/gliffy/canvas2svg/issues?utf8=%E2%9C%93&q=author%3Azenozeng+).
 
 **[moment](https://github.com/moment/moment)** (JavaScript)
     One of the maintainers of [locale/zh-cn.js](https://github.com/moment/moment/blob/develop/locale/zh-cn.js).

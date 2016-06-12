@@ -1,0 +1,28 @@
+language: node_js
+node_js:
+    - "4"
+cache:
+  directories:
+  - ~/.npm
+  - node_modules
+  
+before_install:
+  - sudo apt-get install wkhtmltopdf
+    
+install:
+  - npm install
+    
+before_script:
+  - git config --global user.name 'lzhr'
+  - git config --global user.email 'lzhrsmile@gmail.com'
+
+script:
+  - ./build.sh
+  
+after_success:
+    - git init
+    - git symbolic-ref HEAD refs/heads/gh-pages
+    - git remote add origin $DEPLOY_REPO
+    - git add -A .
+    - git commit -m 'Site updated by Travis CI'
+    - git push --force --quiet origin gh-pages

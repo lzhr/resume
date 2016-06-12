@@ -17,8 +17,14 @@ before_script:
   - git config --global user.email 'lzhrsmile@gmail.com'
 
 script:
-  - ./build.sh
-  
+  - rm -f node_modules/markdown-resume/assets/css/*
+  - cp *.css node_modules/markdown-resume/assets/css/
+  - node node_modules/markdown-resume/bin/md2resume resume.md
+# node node_modules/markdown-resume/bin/md2resume --pdf resume.md
+  - mv resume.html index.html
+  - node node_modules/markdown-resume/bin/md2resume 'resume-en.md'
+  - mv resume-en.html en/index.html
+
 after_success:
     - git init
     - git symbolic-ref HEAD refs/heads/gh-pages

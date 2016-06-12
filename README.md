@@ -1,12 +1,12 @@
 # resume
 
-Zeno Zeng's resume in Markdown.
+REN's resume in Markdown.
 
-Online Version: http://resume.zenozeng.com
+Online Version: http://lzhr.github.io/resume
 
-English Version: http://resume.zenozeng.com/english/
+English Version: http://lzhr.github.io/resume/english/
 
-This is based on [xuxiaodong's resume theme](https://github.com/xuxiaodong/resume).
+This is based on [zenozeng's resume theme](https://github.com/zenozeng/resume)
 
 ## build
 

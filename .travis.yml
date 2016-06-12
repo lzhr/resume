@@ -11,13 +11,14 @@ before_install:
     
 install:
   - npm install
+  - npm install -g cheerio
+  - npm install --save cheerio
     
 before_script:
   - git config --global user.name 'lzhr'
   - git config --global user.email 'lzhrsmile@gmail.com'
 
 script:
-  - npm install -g cheerio
   - rm -f node_modules/markdown-resume/assets/css/*
   - cp *.css node_modules/markdown-resume/assets/css/
   - node node_modules/markdown-resume/bin/md2resume resume.md

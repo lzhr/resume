@@ -19,12 +19,21 @@ before_script:
 script:
   - rm -f node_modules/markdown-resume/assets/css/*
   - cp *.css node_modules/markdown-resume/assets/css/
-  - node node_modules/markdown-resume/bin/md2resume resume.md
+#  - node node_modules/markdown-resume/bin/md2resume resume.md
 # node node_modules/markdown-resume/bin/md2resume --pdf resume.md
-  - mv resume.html index.html
-  - node node_modules/markdown-resume/bin/md2resume 'resume-en.md'
-  - mv resume-en.html en/index.html
-
+#  - mv resume.html index.html
+#  - node node_modules/markdown-resume/bin/md2resume 'resume-en.md'
+#  - mv resume-en.html en/index.html
+# For icon
+  - cp source/_resume/template.html node_modules/markdown-resume/assets/templates/default.html
+  - node node_modules/markdown-resume/bin/md2resume source/_resume/resume.md
+  - node node_modules/markdown-resume/bin/md2resume source/_resume/resume-en.md
+# Ugly
+  #node node_modules/markdown-resume/bin/md2resume --pdf resume.md
+  - mv source/_resume/resume.html index.html
+  - mkdir  en
+  - mv source/_resume/resume-en.html en/index.html
+  
 after_success:
     - git init
     - git symbolic-ref HEAD refs/heads/gh-pages
